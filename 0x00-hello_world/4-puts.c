@@ -3,7 +3,9 @@
 /**
 * main -entry point for string
 *
-* return: always 0
+* Description: Program returns string.
+*
+* Return: Always 0 (Success)
 *
 */
 int main(void)
