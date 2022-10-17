@@ -13,28 +13,26 @@
 int main(void)
 {
 	int ft = 0;
-	int lt = 0;
-	int sma = 1;
+	int lt;
+	int coma = 1;
 
 	while (ft <= 9)
 	{
+		lt = ft + 1
+
 		while (lt <= 9)
 		{
-			if (ft <= lt)
+			putchar(ft);
+			putchar(lt);
+
+			if (ft != 8 || lt != 9)
 			{
-				if (sma == 0 && lt != ft)
-				{
-					putchar(',');
-					putchar(' ');
-				}
-				sma = 0;
-				putchar(ft + '0');
-				putchar(lt + '0');
+				putchar(',');
+				putchar(' ');
 			}
 			lt++;
 		}
 		ft++;
-		lt = 0;
 	}
 	putchar('\n');
 	return (0);
