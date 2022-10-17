@@ -18,7 +18,7 @@ int main(void)
 
 	while (ft <= 9)
 	{
-		lt = ft + 1
+		lt = ft + 1;
 
 		while (lt <= 9)
 		{
