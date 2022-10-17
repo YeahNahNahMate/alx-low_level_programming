@@ -14,7 +14,6 @@ int main(void)
 {
 	int ft = 0;
 	int lt;
-	int coma = 1;
 
 	while (ft <= 9)
 	{
