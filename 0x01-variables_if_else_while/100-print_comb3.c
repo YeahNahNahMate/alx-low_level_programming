@@ -22,7 +22,7 @@ int main(void)
 		{
 			if (ft <= lt)
 			{
-				if (sma == 0)
+				if (sma == 0 && lt != ft)
 				{
 					putchar(',');
 					putchar(' ');
