@@ -14,12 +14,14 @@ int main(void)
 {
 	int ft = 0;
 	int lt;
+	int c = 0;
 
-	while (ft <= '9')
+	while (c <= 99)
 	{
-		lt = ft + 1;
+		ft = (c / 10 + '0');
+		lt = (c % 10 + '0');
 
-		while (lt <= '9')
+		if (ft < lt)
 		{
 			putchar(ft);
 			putchar(lt);
@@ -29,9 +31,8 @@ int main(void)
 				putchar(',');
 				putchar(' ');
 			}
-			lt++;
 		}
-		ft++;
+		c++;
 	}
 	putchar('\n');
 	return (0);
