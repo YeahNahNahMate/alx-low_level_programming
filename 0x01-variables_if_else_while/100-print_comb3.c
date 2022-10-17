@@ -15,16 +15,16 @@ int main(void)
 	int ft = 0;
 	int lt;
 
-	while (ft <= 9)
+	while (ft <= '9')
 	{
 		lt = ft + 1;
 
-		while (lt <= 9)
+		while (lt <= '9')
 		{
 			putchar(ft);
 			putchar(lt);
 
-			if (ft != 8 || lt != 9)
+			if (ft != '8' || lt != '9')
 			{
 				putchar(',');
 				putchar(' ');
