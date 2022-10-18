@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <main.h>
+
+/**
+ * main - Entry point
+ *
+ * Description: Prints the word _putchar to screen
+ *
+ * Return: always 0 (success)
+ */
+
+int main(void)
+{
+	int i;
+	char wrd[9] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'}
+
+	for (i = 0; i < 9; i++)
+	{
+		getchar(wrd[i]);
+	}
+	getchar('\n');
+	return (0);
+}
