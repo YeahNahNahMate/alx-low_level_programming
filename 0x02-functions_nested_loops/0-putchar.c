@@ -15,8 +15,8 @@ int main(void)
 
 	for (i = 0; i < 9; i++)
 	{
-		getchar(wrd[i]);
+		putchar(wrd[i]);
 	}
-	getchar('\n');
+	putchar('\n');
 	return (0);
 }
