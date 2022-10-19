@@ -11,7 +11,7 @@
 int main(void)
 {
 	int i;
-	char wrd[9] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'}
+	char wrd[9] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
 
 	for (i = 0 ; i < 9 ; i++)
 	{
