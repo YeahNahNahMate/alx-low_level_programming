@@ -17,6 +17,5 @@ int main(void)
 	{
 		putchar(wrd[i]);
 	}
-	putchar('\n');
 	return (0);
 }
