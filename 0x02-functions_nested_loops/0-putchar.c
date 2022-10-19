@@ -18,4 +18,4 @@ int main(void)
 		putchar(wrd[i]);
 	}
 	return (0);
-}i
+}
